@@ -4,7 +4,7 @@ This repository contains all the documentation for the various Photo Project rep
 
 All the documentation is organized by area within subfolders of the /docs/ folder. A lot of this is (or will be) mirrored on http://www.theopenphotoprojet.org. 
 
-'''Big picture TODO'''
+Big picture TODO
 * Contributing to other areas: mobile apps, exporters, ...
 * Copyediting the files for grammatical correctness
 * Checking the guides for correctness and finishing the Shared Hosting guide
