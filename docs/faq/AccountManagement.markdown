@@ -13,8 +13,11 @@ Go to the Sign In page and click "Forgot Password" next to the password entry fi
 ## Can I change the email I signed up with? 
 Not at this time. We're working on it.
 
+## I previously signed in with BrowserID or Facebook Connect, so I don't have a password. How do I sign in now?
+You can use the same email associated with either of those accounts. When you sign in, enter that email and click "Forgot password?". You'll get a link to set a password.
+
 ## Can I change my password?
 Yes. When you sign in, click "Forgot password?" and enter your email address. You'll get a link to reset your password as if you had forgotten it.
 
 ## How do I delete my account?
-We're sad to see you go. Right now account deletion is manual, so email support@trovebox.com and we'll delete your account for you. Before you delete your account, make sure to migrate your photos to an external account that you control. You can do that at <a href="https://trovebox.com/migrate">the Migrate Photos page</a>.
+We're sad to see you go. Right now account deletion is manual, so email support@trovebox.com and we'll delete your account for you.
