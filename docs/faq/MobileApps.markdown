@@ -14,8 +14,8 @@ Trovebox has mobile apps for iPhone and Android. You can download them <a href="
 ## I have a limited data plan. Can I limit uploads to wifi only?
 Sure.
 
-### What is Sync?
+## What is Sync?
 Sync lets you view the photos on your phone and select which ones to upload.
 
-### Can I automatically upload taken photos to OpenPhoto?
+## Can I automatically upload taken photos to Trovebox?
 Yes. This is an experimental feature for Android.
