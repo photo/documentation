@@ -5,7 +5,7 @@ Photo Storage
 Right now Trovebox supports Amazon S3, Box.com, Dropbox, CX.com, and DreamHost DreamObjects.
 
 ## How do I switch where my photos are stored?
-Visit <a href="http://trovebox.com/migrate">the storage migration page</a> while logged in, select where you'd like your photos to go, and follow the instructions.
+Visit <a href="http://trovebox.com/migrate">the storage migration page</a> while logged in, select where you'd like your photos to go, and follow the instructions. Note that this is a <a href="https://trovebox.com/plans">Pro account option</a>.
 
 ## How can I import my photos?
 You can import your photos through the Upload photos page when you're logged into Trovebox. At the bottom of the Upload photos page are links to import photos from Flickr, Facebook, and Instagram. Select the site(s) you'd like to import from and follow the instructions.
