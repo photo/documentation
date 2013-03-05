@@ -31,8 +31,8 @@ While you're logged into your Trovebox site, visit Albums. Select Create Album, 
 ## How do I add a photo to an album?
 You can add a photo to an album by hovering over the photo in your gallery and pinning it. Then select Batch Edit and Add to Album. Select the album you want to add the photo to and save.
 
+## How do I delete an album?
+Hover over the album you want to delete in the albums page and click the trash can. The photos in that album are still safe.
+
 ## How do I edit multiple photos at once?
 Visit your Gallery at your Trovebox site. From there, hover over the photo(s) you want to edit and click the pin that appears. Click Batch Edit and select the detail you want to edit, change the detail, and click Submit.
-
-## How do I share a private photo?
-We're currently working on a new way to share private photos. Look for it soon.
