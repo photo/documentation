@@ -1,4 +1,4 @@
-Get Tags
+Delete Tag
 =======================
 
 
@@ -16,23 +16,22 @@ Get Tags
 ----------------------------------------
 
 <a name="purpose"></a>
-### Purpose of the Get Tags API
+### Purpose of the Delete Tag API
 
-Use this API to get a user's tags.
+This API is used internally to delete a tag.
+External applications should use the [Photo Update API](http://theopenphotoproject.org/documentation/api/PostPhotoUpdate) to delete tags.
 
 ----------------------------------------
 
 <a name="endpoint"></a>
 ### Endpoint
 
-_Authentication: optional_
+_Authentication: required_
 
-    GET /tags/list.json
+    POST /tag/:id/delete.json
 
 <a name="parameters"></a>
 ### Parameters
-
-_None_
 
 ----------------------------------------
 
@@ -42,13 +41,13 @@ _None_
 <a name="example-cli"></a>
 #### Command Line (using [openphoto-php][openphoto-php])
 
-    ./openphoto -p -h current.openphoto.me -e /tags/list.json
+    ./openphoto -p -X POST -h current.trovebox.com -e /tag/sunnyvale/delete.json
 
 <a name="example-php"></a>
 #### PHP (using [openphoto-php][openphoto-php])
 
     $client = new OpenPhotoOAuth($host, $consumerKey, $consumerSecret, $oauthToken, $oauthTokenSecret);
-    $response = $client->get("/tags/list.json");
+    $response = $client->post("/tag/sunnyvale/delete.json");
 
 ----------------------------------------
 
@@ -58,43 +57,16 @@ _None_
 The response is in a standard [response envelope](http://theopenphotoproject.org/documentation/api/Envelope).
 
 * _message_, A string describing the result. Don't use this for anything but reading.
-* _code_, _200_ on success
-* _result_, An array of [Tag][Tag] objects
+* _code_, _201_ on success
+* _result_, TRUE if the tag was successfully deleted
 
 <a name="sample"></a>
 #### Sample
 
     {
       "message":"",
-      "code":200,
-      "result":
-      [
-        {
-          "id": "mountain",
-          "count": 1
-          "actor": "jaisen@jmathai.com"
-          "owner": "jaisen@jmathai.com"
-        },
-        {
-          "id": "jaisen",
-          "count": 10,
-          "actor": "jaisen@jmathai.com"
-          "owner": "jaisen@jmathai.com"
-        },
-        {
-          "id": "New York",
-          "count": 9,
-          "actor": "jaisen@jmathai.com"
-          "owner": "jaisen@jmathai.com"
-        },
-        {
-          "id": "Sunnyvale",
-          "count":23
-          "actor": "jaisen@jmathai.com"
-          "owner": "jaisen@jmathai.com"
-        },
-        ....
-      ]
+      "code":201,
+      "result":TRUE
     }
 
 
@@ -108,3 +80,4 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
 [response]: #response
 [sample]: #sample
 [openphoto-php]: https://github.com/photo/openphoto-php
+

@@ -7,11 +7,14 @@ Update Tag
 1. [Purpose][purpose]
 1. [Endpoint][endpoint]
 1. [Parameters][parameters]
+<!--- NOTE: These examples are not valid, since there are no tag attributes that can be updated.
+            Leave this commented out until an updateable tag attribute is added.
 1. [Examples][examples]
   * [Command line][example-cli]
   * [PHP][example-php]
 1. [Response][response]
   * [Sample][sample]
+--->
 
 ----------------------------------------
 
@@ -32,22 +35,24 @@ _Authentication: required_
 <a name="parameters"></a>
 ### Parameters
 
-1.  count (optional), Number of photos which contain this tag
-1.  email (optional), An email address that corresponds to this tag
-1.  latitude (optional), _i.e. 34.76_ - A decimal representation of latitude.
-1.  longitude (optional), _i.e. -87.45_ - A decimal representation of longitude.
+There are not currently any tag attributes that can be updated.
 
 ----------------------------------------
+
+<!--- NOTE: These examples are not valid, since there are no tag attributes that can be updated.
+            Leave this commented out until an updateable tag attribute is added.
 
 <a name="examples"></a>
 ### Examples
 
 <a name="example-cli"></a>
+
 #### Command Line (using [openphoto-php][openphoto-php])
 
     ./openphoto -p -X POST -h current.openphoto.me -e /tag/sunnyvale/update.json -F 'count=10'
 
 <a name="example-php"></a>
+
 #### PHP (using [openphoto-php][openphoto-php])
 
     $client = new OpenPhotoOAuth($host, $consumerKey, $consumerSecret, $oauthToken, $oauthTokenSecret);
@@ -77,6 +82,7 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
       }
     }
 
+--->
 
 [Tag]: http://theopenphotoproject.org/documentation/schemas/Tag
 [purpose]: #purpose
