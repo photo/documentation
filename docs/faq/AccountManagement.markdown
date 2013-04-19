@@ -1,7 +1,7 @@
 Account Management
 =======================
 
-## How do I create an account?
+## How do I create a Trovebox account?
 Visit <a href="http://trovebox.com">trovebox.com</a> and click the Sign Up button. Select a username for your Trovebox site along with a password.
 
 ## How do I log in?
