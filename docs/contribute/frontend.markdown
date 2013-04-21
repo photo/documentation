@@ -35,24 +35,26 @@ We've added a _Beginner_ label to issues that don't touch some of the more sensi
 * <a href="https://github.com/photo/frontend/issues?labels=Beginner%2CPHP&sort=created&direction=desc&state=open&page=1">Beginner + PHP issues</a>
 
 ## Things to keep in mind while you code
-Here's what your code should adhere to:
+Here are some guidelines for your code:
 
 * Unit tests should pass (more on that in the next section)
 * Spacing matters: two spaces, no tabs
 * Commits should reference an issue number (more on that below)
 * Comment your code so future developers can tell what's going on
 * Curly braces go on their own line. For example:
-````php
-  if(condition)
-  {
-      statement 1;
-      statement 2;
-  }
 
-  // or
-  if(condition)
-      only statement;
-````
+
+        if(condition)   
+        {   
+          statement 1;        
+          statement 2;       
+        }
+
+        // or    
+        if(condition)    
+          only statement;
+
+
 All in all, we recognize that everyone has a different style and level of experience, and we welcome all pull requests.
 
 ## Testing that your change didn't break anything
