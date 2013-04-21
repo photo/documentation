@@ -4,13 +4,23 @@ We're working hard to make OpenPhoto the best photo software possible, and part 
 
 We're always looking for writers to contribute to our documentation. If you can explain technical ideas clearly, we need you.
 
+## The short version
+Here's the short version of adding to our documentation.
+
+* Choose something to document.
+* Fork our Documentation repository.
+* Write.
+* Send a pull request.
+
+The rest of this guide covers each step in detail.
+
 ## Deciding what to contribute
 We currently have documentation for the API and setting up OpenPhoto on a variety of servers (including shared hosting services), along with FAQs for the hosted and self-hosted sites. You can contribute by adding to these guides or by adding your own guide--for example, how to install OpenPhoto on your webhost. Your contributions will help users of the present and future who have the same questions.
 
 All of this documentation is <a href="https://github.com/photo/documentation">in the documentation repository</a> under the docs folder. We have <a href="https://github.com/photo/frontend/issues?labels=Documentation&page=1&state=open">issues tagged documentation on the frontend repository as well</a>, but every area of the project can benefit from better documentation. Choose something you know about that isn't well-documented here and start writing.
 
 ## Forking the Documentation repository
-Before you start writing, you need to fork the documentation repository. You can fork the repository right from the main OpenPhoto repository page by clicking the "Fork" button. If you plan on writing your documentation directly in Github, that's all you need to do. If you want to work from a copy of the repository on your computer, <a href="https://help.github.com/articles/fork-a-repo">Github explains how to clone a repository to your own machine</a>.
+Before you start writing, you need to fork the documentation repository. You can fork the repository right from the main OpenPhoto repository page by clicking the "Fork" button. If you plan on writing your documentation directly in Github, you can go ahead and start writing. If you want to work from a copy of the repository on your computer, <a href="https://help.github.com/articles/fork-a-repo">Github explains how to clone a repository to your own machine</a>.
 
 ## Writing the documentation
 We write our documentation in Github Standard Markdown and save the files as .Markdown files. If you're familiar with Markdown and Github, go ahead and fork [our documentation repository](https://github.com/photo/documentation), then write your contribution in a text editor of your choice. If you're not, you may want to take a look at <a href="http://github.github.com/github-flavored-markdown/">Github's explanation of Markdown</a> as well as the source of OpenPhoto's documentation pages on Github. Or if you're working from the Github site, press **m** on your keyboard when editing a page to see a cheatsheet.
