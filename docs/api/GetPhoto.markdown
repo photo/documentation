@@ -10,6 +10,7 @@ Get Photo
 1. [Examples][examples]
   * [Command line][example-cli]
   * [PHP][example-php]
+  * [Python][example-python]
 1. [Response][response]
   * [Sample][sample]
 
@@ -52,6 +53,14 @@ _Authentication: optional_
 
     $client = new OpenPhotoOAuth($host, $consumerKey, $consumerSecret, $oauthToken, $oauthTokenSecret);
     $response = $client->get("/photo/b/view.json");
+
+<a name="example-python"></a>
+#### Python (using [openphoto-python][openphoto-python])
+
+    client = openphoto.OpenPhoto()
+    photo = client.photos.list()[0] # Returns the first photo from the list
+    photo.view(returnSizes="20x20") # Updates the photo object with the requested size
+    print photo.path20x20
 
 ----------------------------------------
 
@@ -109,8 +118,10 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
 [examples]: #examples
 [example-cli]: #example-cli
 [example-php]: #example-php
+[example-python]: #example-python
 [response]: #response
 [sample]: #sample
 [photogeneration]: http://theopenphotoproject.org/documentation/faq/PhotoGeneration
 [ReturnSizes]: http://theopenphotoproject.org/documentation/faq/ReturnSizes
 [openphoto-php]: https://github.com/photo/openphoto-php
+[openphoto-python]: https://github.com/photo/openphoto-python
