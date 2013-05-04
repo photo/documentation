@@ -62,6 +62,8 @@ _Authentication: optional_
     photo.view(returnSizes="20x20") # Updates the photo object with the requested size
     print photo.path20x20
 
+        http://current.openphoto.me/photo/c7/create/baad9/20x20.jpg
+
 ----------------------------------------
 
 <a name="response"></a>
