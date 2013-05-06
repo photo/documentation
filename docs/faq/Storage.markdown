@@ -13,6 +13,15 @@ Visit <a href="http://trovebox.com/migrate">the storage migration page</a> while
 ## How can I import my photos?
 You can import your photos through the Upload photos page when you're logged into Trovebox. At the bottom of the Upload photos page are links to import photos from Flickr, Facebook, and Instagram. Select the site(s) you'd like to import from and follow the instructions.
 
+## Can I link my account to an existing S3 bucket?
+Not yet. This is a known bug.
+
+## Does Trovebox sync photos already stored in my storage account?
+Not yet, but this is a common request.
+
+## Can I upload my photos to Trovebox through Dropbox?
+Not directly. This has been an experimental feature for awhile, and we hope to make it available to everyone in the future.
+
 ## Can I keep uploading to another photo site and have that photo automatically show up in Trovebox? What about uploading to Trovebox and having a photo show up elsewhere?
 Not directly through Trovebox, but you can use sites like <a href="http://ifttt.com">ifttt</a> or <a href="http://pi.pe">Pixelpipe</a> that will automatically upload a picture to Trovebox when you upload a picture somewhere else (or vice versa).
 
