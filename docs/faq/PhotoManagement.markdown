@@ -2,7 +2,7 @@ Photo Management
 =======================
 
 ## How do I upload a photo?
-Go to your Trovebox site (it'll look like yourusername.trovebox.com) and click Upload. Click Add Photos and add the photos you'd like to upload. You can also add attributes that'll apply to all the photos uploaded in that batch, such as a tag, an album, a privacy setting, or a license.
+Go to your Trovebox site (it'll look like yourusername.trovebox.com) and click Upload. Click Add Photos and add the photos you'd like to upload. You can also add attributes that'll apply to all the photos uploaded in that batch, such as a tag, an album, a privacy setting, or a license. You can also upload a photo through our mobile apps for iPhone and Android.
 
 ## How large can my photo be?
 We support photo files of up to 30MB.
@@ -41,6 +41,9 @@ While you're logged into your Trovebox site, visit Albums. Select Create Album, 
 
 ## How do I add a photo to an album?
 You can add a photo to an album by hovering over the photo in your gallery and pinning it. Then select Batch Edit and Add to Album. Select the album you want to add the photo to and save.
+
+## How do I set a cover photo for an album?
+Visit an album from your album page and hover over the photo you want as your album cover. Click the album button to set that photo as the album cover.
 
 ## How do I delete an album?
 Hover over the album you want to delete in the albums page and click the trash can. Confirm that you want to delete the album. The photos in that album are still safe.
