@@ -59,7 +59,7 @@ _Authentication: optional_
 
     client = openphoto.OpenPhoto()
     photo = client.photos.list()[1] # Returns the second photo in the list
-    print photo.next_previous()
+    print(photo.next_previous())
     
         {'previous': [<openphoto.objects.Photo id='1eo'>], 'next': [<openphoto.objects.Photo id='1eq'>]}
 
