@@ -10,6 +10,7 @@ Get Tags
 1. [Examples][examples]
   * [Command line][example-cli]
   * [PHP][example-php]
+  * [Python][example-python]
 1. [Response][response]
   * [Sample][sample]
 
@@ -49,6 +50,14 @@ _None_
 
     $client = new OpenPhotoOAuth($host, $consumerKey, $consumerSecret, $oauthToken, $oauthTokenSecret);
     $response = $client->get("/tags/list.json");
+
+<a name="example-python"></a>
+#### Python (using [openphoto-python][openphoto-python])
+
+    client = openphoto.OpenPhoto()
+    client.tags.list()
+    
+        [<openphoto.objects.Tag id='australia'>, <openphoto.objects.Tag id='Boracay Philippines'>, ...]
 
 ----------------------------------------
 
@@ -102,6 +111,8 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
 [examples]: #examples
 [example-cli]: #example-cli
 [example-php]: #example-php
+[example-python]: #example-python
 [response]: #response
 [sample]: #sample
 [openphoto-php]: https://github.com/photo/openphoto-php
+[openphoto-python]: https://github.com/photo/openphoto-python
