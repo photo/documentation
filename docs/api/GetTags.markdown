@@ -55,7 +55,7 @@ _None_
 #### Python (using [openphoto-python][openphoto-python])
 
     client = openphoto.OpenPhoto()
-    client.tags.list()
+    print(client.tags.list())
     
         [<openphoto.objects.Tag id='australia'>, <openphoto.objects.Tag id='Boracay Philippines'>, ...]
 
