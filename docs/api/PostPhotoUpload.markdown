@@ -10,6 +10,7 @@ Upload Photo
 1. [Examples][examples]
   * [Command line][example-cli]
   * [PHP][example-php]
+  * [Python][example-python]
 1. [Response][response]
   * [Sample][sample]
 
@@ -75,6 +76,16 @@ _Authentication: required_
     $photoBase64Encoded = base64_encode(file_get_contents('/path/to/photo.jpg'));
     $response = $client->post("/photo/upload.json", array('photo' => $photoBase64Encoded, 'tags' => 'sunnyvale,downtown'));
 
+<a name="example-python"></a>
+#### Python (using [openphoto-python][openphoto-python])
+
+    # multipart
+    client = openphoto.OpenPhoto()
+    client.photo.upload("path/to/photo.jpg", tags=["sunnyvale", "downtown"])
+    
+    # base64 encoded
+    client.photo.upload_encoded("path/to/photo.jpg", tags=["sunnyvale", "downtown"])
+    
 ----------------------------------------
 
 <a name="response"></a>
@@ -134,6 +145,8 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
 [examples]: #examples
 [example-cli]: #example-cli
 [example-php]: #example-php
+[example-python]: #example-python
 [response]: #response
 [sample]: #sample
 [openphoto-php]: https://github.com/photo/openphoto-php
+[openphoto-python]: https://github.com/photo/openphoto-python
