@@ -10,6 +10,7 @@ Get Next/Previous Photo
 1. [Examples][examples]
   * [Command line][example-cli]
   * [PHP][example-php]
+  * [Python][example-python]
 1. [Response][response]
   * [Sample][sample]
 
@@ -52,6 +53,15 @@ _Authentication: optional_
 
     $client = new OpenPhotoOAuth($host, $consumerKey, $consumerSecret, $oauthToken, $oauthTokenSecret);
     $response = $client->get("/photo/b/nextprevious.json");
+
+<a name="example-python"></a>
+#### Python (using [openphoto-python][openphoto-python])
+
+    client = openphoto.OpenPhoto()
+    photo = client.photos.list()[1] # Returns the second photo in the list
+    print(photo.next_previous())
+    
+        {'previous': [<openphoto.objects.Photo id='1eo'>], 'next': [<openphoto.objects.Photo id='1eq'>]}
 
 ----------------------------------------
 
@@ -152,8 +162,10 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
 [examples]: #examples
 [example-cli]: #example-cli
 [example-php]: #example-php
+[example-python]: #example-python
 [response]: #response
 [sample]: #sample
 [photogeneration]: http://theopenphotoproject.org/documentation/faq/PhotoGeneration
 [ReturnSizes]: http://theopenphotoproject.org/documentation/faq/ReturnSizes
 [openphoto-php]: https://github.com/photo/openphoto-php
+[openphoto-python]: https://github.com/photo/openphoto-python
