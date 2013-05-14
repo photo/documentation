@@ -59,8 +59,8 @@ _Authentication: optional_
 
     client = openphoto.OpenPhoto()
     photo = client.photos.list()[0] # Returns the first photo from the list
-    photo.view(returnSizes="20x20") # Updates the photo object with the requested size
-    print photo.path20x20
+    photo.view(returnSizes="20x20")
+    print(photo.path20x20)
 
         http://current.openphoto.me/photo/c7/create/baad9/20x20.jpg
 
