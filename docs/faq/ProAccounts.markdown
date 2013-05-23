@@ -4,10 +4,10 @@ Pro Accounts
 ## What do I get with a Trovebox Pro account?
 With a pro account, you get:
 
-* Unlimited photo uploads (Free users get 100 photo uploads/month)
-* Import from Flickr as well as Facebook and Instagram (Picasa and Smugmug coming soon)
+* Unlimited photo uploads (Compare to 100 photos/month for free users)
+* Import from Flickr as well as Facebook and Instagram. Picasa and Smugmug are coming soon.
 * Switch where you store your photos as many times as you wish
-* Give multiple users access on your account
+* Give multiple users access on your account without giving them your password
 * Top level domain support at yourdomain.com
 
 <a href="https://trovebox.com/plans">Check out our plans chart</a> for the full breakdown.
@@ -17,6 +17,15 @@ A Pro account costs $29.99 a year.
 
 ## How do I upgrade from a free account to a Pro account?
 Visit <a href="https://trovebox.com/upgrade">our upgrade page</a>, enter your credit card info, and enjoy your Pro account!
+
+## Can I select a Pro plan when I sign up for Trovebox?
+Yes. When you sign up, select the Pro plan, and you'll be prompted for your credit card info.
+
+## Can I pay via PayPal? Google Wallet? Some other way?
+Not yet. If you have any trouble getting your Pro account with a credit card contact us at [support@trovebox.com](mailto:support@trovebox.com) and we can figure out a way.
+
+## Is there a monthly Pro plan?
+Not directly through the website, but you can purchase a monthly plan for $2.99/month straight through the iPhone app. Monthly plan support for the Android app is planned.
 
 ## Is unlimited really unlimited? What's the catch?
 We don't limit uploads for Pro users, but you may face limits from your storage provider. If we're your storage provider then everything is unlimited. 
@@ -51,7 +60,7 @@ Twitter cards are added per domain. You can <a href="https://dev.twitter.com/doc
 ## Can I use a custom domain for my Trovebox thumbnails?
 Yes. If you're already using a subdomain on your Trovebox site, you should use a different one for your images so one subdomain doesn't map to two places.
 
-The easiest way to use a domain for your thumbnails is to store your photos in an Amazon S3 bucket named after your subdomain--that is, your.subdomain.com. Then add a CNAME record pointing your.subdomain.com to something.theirdomain.com.s3.amazonaws.com. Once you've done this email us at [mailto:support@trovebox.com](support@trovebox.com) and we can update the record on our side.
+The easiest way to use a domain for your thumbnails is to store your photos in an Amazon S3 bucket named after your subdomain--that is, your.subdomain.com. Then add a CNAME record pointing your.subdomain.com to your.subdomain.com.s3.amazonaws.com. Once you've done this email us at [mailto:support@trovebox.com](support@trovebox.com) and we can update the record on our side.
 
 ## My needs go far beyond what a Pro account provides. Can I get even more?
 We're working on a [https://trovebox.com/organizations](plan for organizations). Email us at [mailto:support@trovebox.com](support@trovebox.com) if you're interested.
