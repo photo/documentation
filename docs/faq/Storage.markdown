@@ -4,29 +4,20 @@ Photo Storage
 ## Where can I store my photos?
 Right now Trovebox supports Amazon S3, Box.com, Dropbox, CX.com, DreamHost DreamObjects, and the Internet Archive. You can also use our storage if you don't want to use your own.
 
-## What if I don't choose my own storage provider upon signup.
+## What if I don't choose my own storage provider upon signup?
 Then your photos get stored in our own S3 bucket. You can change this anytime.
 
 ## How do I switch where my photos are stored?
 Visit <a href="http://trovebox.com/migrate">the storage migration page</a> while logged in, select where you'd like your photos to go, and follow the instructions. Note that this is a <a href="https://trovebox.com/plans">Pro account option</a>.
 
-## How can I import my photos?
-You can import your photos through the Upload photos page when you're logged into Trovebox. At the bottom of the Upload photos page are links to import photos from Flickr, Facebook, and Instagram. Select the site(s) you'd like to import from and follow the instructions.
-
 ## Can I link my account to an existing S3 bucket?
 Not yet. This is a known bug.
 
-## Does Trovebox sync photos already stored in my storage account?
-Not yet, but this is a common request.
-
 ## Can I upload my photos to Trovebox through Dropbox?
-Not directly. This has been an experimental feature for awhile, and we hope to make it available to everyone in the future.
-
-## Can I keep uploading to another photo site and have that photo automatically show up in Trovebox? What about uploading to Trovebox and having a photo show up elsewhere?
-Not directly through Trovebox, but you can use sites like <a href="http://ifttt.com">ifttt</a> or <a href="http://pi.pe">Pixelpipe</a> that will automatically upload a picture to Trovebox when you upload a picture somewhere else (or vice versa).
+Yes. This has been an experimental feature for awhile, and we hope to make it available to everyone in the future. Get started at [http://openphotoapps.com](http://openphotoapps.com).
 
 ## Is there a limit to how many photos I can upload?
-If you're a free user you can upload up to 100 photos per month. Pro account holders get unlimited uploads, though your storage provider may impose space limits. If you're using our storage then everything is unlimited.
+If you're a free user you can upload up to 100 photos per month. Pro account holders get unlimited uploads, though your storage provider may impose space limits. If you're using our storage then everything is unlimited for a Pro account.
 
 ## Can I sync photos to Trovebox from an existing storage account?
 Not yet. It's on our feature wishlist, though.
@@ -38,5 +29,5 @@ We're working on this.
 ## If I'm a free user, do I lose access to my photos after using a certain amount of space or hitting my monthly upload limit?
 Nope. Your photos are yours, and you still have access to everything you've previously uploaded.
 
-## Do I get to access my original photos?
-Yes. Free or pro, you'll always have access to the original photos uploaded.
+## Can I access my original photos?
+Yes. Free or pro, you'll always have access to your original photos in the resolution you uploaded them in.
