@@ -19,7 +19,7 @@ From Instagram we import: images, titles, hashtags (as tags), and location
 From S3 we import as much as we can based on what's already in your photo's metadata.
 
 ## How do your importers work?
-Our importers fetch the information from the site requested and downloads it to our servers, then uploads the photos and metadata to your Trovebox site. Nothing gets downloaded to your computer.
+Our importers fetch the information from the site requested and download it to our servers, then uploads the photos and metadata to your Trovebox site. Nothing gets downloaded to your computer.
 
 ## Can I import my photos from an existing S3 bucket?
 Yes. Visit [our S3 import page](https://trovebox.com/for/s3/import) to get started. This is a Pro account feature.
