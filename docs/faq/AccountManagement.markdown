@@ -13,6 +13,9 @@ Go to the Sign In page and click "Forgot Password" next to the password entry fi
 ## Can I change the email I signed up with? 
 Not at this time. We're working on it.
 
+## Can I change my username?
+Not at this time. You can always create a new account with your desired username. If you want or need your current account to be deleted, you can request a deletion by emailing [support@trovebox.com](mailto:support@trovebox.com).
+
 ## I previously signed in with BrowserID or Facebook Connect, so I don't have a password. How do I sign in now?
 You can use the same email associated with either of those accounts. When you sign in, enter that email and click "Forgot password?". You'll get a link to set a password.
 
@@ -20,4 +23,4 @@ You can use the same email associated with either of those accounts. When you si
 Yes. When you sign in, click "Forgot password?" and enter your email address. You'll get a link to reset your password as if you had forgotten it.
 
 ## How do I delete my account?
-We're sad to see you go. Right now account deletion is manual, so email support@trovebox.com and we'll delete your account for you.
+We're sad to see you go. Right now account deletion is manual, so email [support@trovebox.com](mailto:support@trovebox.com) and we'll delete your account for you.
