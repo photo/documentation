@@ -14,7 +14,10 @@ Lots of things. To name a few:
 * Add titles, descriptions, privacy settings, and tags
 * Share photos via email, Twitter, and Facebook
 * Add filters to your photos
-* Purchase a monthly Pro account plan (iPhone only, Android coming soon)
+* Purchase a monthly Pro account plan
+
+## Does the iPhone app work on iPad too?
+Yes.
 
 ## I have a limited data plan. Can I limit uploads to wifi only?
 Sure.
@@ -25,3 +28,5 @@ Sync lets you view the photos on your phone and select which ones to upload. Thi
 ## Can I automatically upload taken photos to Trovebox?
 Yes. This is an experimental feature for Android.
 
+## How do I purchase a monthly Pro account?
+Visit the Account section of the navigation menu. Then select Upgrade to Pro account and approve the charge. You'll be charged monthly until you choose to unsubscribe. You can unsubscribe anytime.
