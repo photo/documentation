@@ -34,7 +34,9 @@ You can download a photo directly if you or the user has enabled that option in 
 If you'd like to set one of your uploaded photos as your user photo, visit your gallery, find a photo you'd like to use, and select the person icon.
 
 ## What are albums? How do they work?
-An album is a collection of photos grouped around a theme of your choice. This lets you share many photos with friends or browse your own photos more easily. Albums can be public or private on your albums page.
+An album is a collection of photos grouped around a theme of your choice. This lets you share many photos with friends or browse your own photos more easily. While albums are public on your albums page, the individual photos in the albums will retain the privacy setting you gave them.
+
+Since album photos retain their individual privacy settings, an album consisting entirely of private photos won't have a cover photo.
 
 ## How do I create an album?
 While you're logged into your Trovebox site, visit Albums. Select Create Album, enter the name of your album under the Create Album section, and click Create.
