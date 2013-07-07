@@ -30,7 +30,7 @@ _NOTE:_ Always pass in the `returnSizes` parameter for sizes you plan on using. 
 
 _Authentication: optional_
 
-    GET /photos.json
+    GET /photos/list.json
 
 <a name="parameters"></a>
 ### Parameters
