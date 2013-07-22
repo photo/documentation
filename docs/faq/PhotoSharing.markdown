@@ -5,7 +5,10 @@ Photo Sharing
 You can share a photo by clicking the arrow button at the photo's page or in the gallery. You'll then see the options to share the photo.
 
 ## Where can I share a photo to?
-Right now we support sharing via email, Facebook, or Twitter. We want to add more sites, so let us know where you want to share your photos.
+Right now we support sharing via HTML embeds, email, Facebook, or Twitter. We want to add more sites, so let us know where you want to share your photos.
+
+## How do I share a photo's link via HTML?
+Yes. When viewing a photo, click the Share arrow and select the 'Embed in Blog' button. A box will appear with the HTML you can use to embed the photo in your blog, forums, or anywhere else. Copy this HTML, then paste it to wherever you'd like.
 
 ## How do I share a private photo?
 You can share a private photo in the same way that you'd share a public photo. When you share a private item, a sharing token gets added to the photo URL. The recipient can then use the full URL to view the photo without 
@@ -28,5 +31,3 @@ In the Sharing Tokens section of your settings, find the photo ID of the photo w
 
 Don't know where the photo ID is? Look at the photo's URL. The URL looks like yourusername.trovebox.com/p/PhotoID, where PhotoID is the photo ID. The Photo ID does not include the sharing token in the URL.
 
-## Can I share a photo's link via HTML?
-Not yet, but this is a very popular request. We're working on this.
