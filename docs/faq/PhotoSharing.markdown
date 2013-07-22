@@ -8,7 +8,7 @@ You can share a photo by clicking the arrow button at the photo's page or in the
 Right now we support sharing via HTML embeds, email, Facebook, or Twitter. We want to add more sites, so let us know where you want to share your photos.
 
 ## How do I share a photo's link via HTML?
-Yes. When viewing a photo, click the Share arrow and select the 'Embed in Blog' button. A box will appear with the HTML you can use to embed the photo in your blog, forums, or anywhere else. Copy this HTML, then paste it to wherever you'd like.
+When viewing a photo, click the Share arrow and select the 'Embed in Blog' button. A box will appear with the HTML you can use to embed the photo in your blog, forums, or anywhere else. Copy this HTML, then paste it to wherever you'd like.
 
 ## How do I share a private photo?
 You can share a private photo in the same way that you'd share a public photo. When you share a private item, a sharing token gets added to the photo URL. The recipient can then use the full URL to view the photo without 
