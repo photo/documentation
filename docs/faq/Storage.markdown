@@ -19,8 +19,11 @@ Yes. This has been an experimental feature for awhile, and we hope to make it av
 ## Is there a limit to how many photos I can upload?
 If you're a free user you can upload up to 100 photos per month. Pro account holders get unlimited uploads, though your storage provider may impose space limits. If you're using our storage then everything is unlimited for a Pro account.
 
-## Can I sync photos to Trovebox from an existing storage account?
-Not yet. It's on our feature wishlist, though.
+## Is there a total storage limit at Trovebox?
+No, but free users are limited to uploading 100 new photos per month. However, if you're using your own storage you might run into total limits from your storage provider, like if you fill up your Dropbox account.
+
+## Can I automatically sync photos to Trovebox from an existing storage account?
+Not yet. It's on our feature wishlist, though. For now you can run the importer of your choice again and it will ignore photos you've already imported.
 
 ## If I'm using the Internet Archive as my storage, does that mean all my photos have to be public?
 Not on your Trovebox site! However, the Internet Archive offers free storage for the sake of the public. Right now you can mark a photo as private on your site and it'll show up as public in the archive for archiving purposes. 
