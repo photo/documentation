@@ -2,7 +2,7 @@ Photo Imports
 ====================
 
 ## What sites are supported?
-We currently have importers for Facebook, Instagram, Flickr (Pro only), and Amazon S3 (Pro only). More importers are coming soon.
+We currently provide importers for Facebook, Instagram, Flickr (Pro only), and Amazon S3 (Pro only). More importers are coming soon.
 
 ## How can I import my photos?
 You can import your photos through the Upload photos page when you're logged into Trovebox. At the bottom of the Upload photos page are links to import photos from Flickr, Facebook, or Instagram. Select the site(s) you'd like to import from and follow the instructions.
@@ -16,10 +16,16 @@ From Facebook we import: photos uploaded, cover photos (optional), profile photo
 
 From Instagram we import: images, titles, hashtags (as tags), and location
 
-From S3 we import as much as we can based on what's already in your photo's metadata.
+From S3 we import your photos along with as much as we can based on what's already in your photo's metadata.
 
 ## How do your importers work?
-Our importers fetch the information from the site requested and download it to our servers, then uploads the photos and metadata to your Trovebox site. Nothing gets downloaded to your computer.
+Our importer fetches the information from the site requested and download it to our servers, then uploads the photos and metadata to your Trovebox site. Nothing gets downloaded to your computer.
+
+## I requested an import, so why do I see empty albums and no new photos?
+Our importer fetches your albums first, then places your import request in a line behind everyone else who has requested an import. Because of this you may see empty albums until your import starts.
+
+## What happens if I run an importer again?
+The importer ignores any duplicate photos and will fetch only any new photos you may have uploaded.
 
 ## Can I import my photos from an existing S3 bucket?
 Yes. Visit [our S3 import page](https://trovebox.com/for/s3/import) to get started. This is a Pro account feature.
