@@ -37,7 +37,7 @@ No, we don't. Your credit card info doesn't go through our servers at all, inste
 Nope. We'll alert you when your Pro account is going to renew.
 
 ## What happens if my Pro subscription ends?
-Don't panic! Nothing has been deleted. You resume using a free account, though you're now subject to the free account limitations. You can still access all your photos, free or pro.
+Don't panic! Nothing has been deleted. You resume using a free account, though you're now subject to the free account limitations. You can still access all your photos, free or Pro.
 
 ## What can collaborators do with my account?
 Collaborators can add photos, edit photos, delete photos--just about anything you can do except delete your account. When you add them as a collaborator they can log in with that email via Mozilla Persona. Soon they'll be able to 
@@ -55,12 +55,12 @@ After we've replied and confirmed that we've set up your domain, you'll need to 
 It'll take up to 24 hours for your changes to take effect.
 
 ## How do I add Twitter cards for my domain?
-Twitter cards are added per domain. You can <a href="https://dev.twitter.com/docs/cards">apply for them separately</a> for your own domain.
+Twitter cards are added per domain over at Twitter. You can <a href="https://dev.twitter.com/docs/cards">apply for them separately</a> for your own domain there.
 
 ## Can I use a custom domain for my Trovebox thumbnails?
 Yes. If you're already using a subdomain on your Trovebox site, you should use a different one for your images so one subdomain doesn't map to two places.
 
-The easiest way to use a domain for your thumbnails is to store your photos in an Amazon S3 bucket named after your subdomain--that is, your.subdomain.com. Then add a CNAME record pointing your.subdomain.com to your.subdomain.com.s3.amazonaws.com. Once you've done this email us at [mailto:support@trovebox.com](support@trovebox.com) and we can update the record on our side.
+The easiest way to use a domain for your thumbnails is to store your photos in an Amazon S3 bucket named after your subdomain--that is, your.subdomain.com. Then add a CNAME record pointing your.subdomain.com to your.subdomain.com.s3.amazonaws.com. Once you've done this email us at <a href="mailto:support@trovebox.com">support@trovebox.com</a> and we can update the record on our side.
 
 ## My needs go far beyond what a Pro account provides. Can I get even more?
-We're working on a [https://trovebox.com/organizations](plan for organizations). Email us at [mailto:support@trovebox.com](support@trovebox.com) if you're interested.
+We're working on a <a href="https://trovebox.com/organizations">plan for organizations</a>. Email us at <a href="mailto:support@trovebox.com">support@trovebox.com</a> if you're interested.
