@@ -2,7 +2,7 @@ Photo Imports
 ====================
 
 ## What sites are supported?
-We currently provide importers for Facebook, Instagram, Flickr (Pro only), and Amazon S3 (Pro only). More importers are coming soon.
+We currently provide importers for Facebook, Instagram, Flickr, and Amazon S3. More importers are coming soon.
 
 ## How can I import my photos?
 You can import your photos through the Upload photos page when you're logged into Trovebox. At the bottom of the Upload photos page are links to import photos from Flickr, Facebook, or Instagram. Select the site(s) you'd like to import from and follow the instructions.
