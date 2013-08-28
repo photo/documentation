@@ -2,7 +2,7 @@ Photo Management
 =======================
 
 ## How do I upload a photo?
-Go to your Trovebox site (it'll look like yourusername.trovebox.com) and click Upload. Click Add Photos and add the photos you'd like to upload. You can also add attributes that'll apply to all the photos uploaded in that batch, such as a tag, an album, a privacy setting, or a license. You can also upload a photo through our mobile apps for iPhone and Android.
+Go to your Trovebox site, which is something like _yourusername.trovebox.com_, and click Upload. Click Add Photos and add the photos you'd like to upload. Here you can add attributes that will apply to all the photos uploaded in that batch: tag, an album, a privacy setting, or a license. You can also upload a photo through our mobile apps for iPhone and Android.
 
 ## How large can my photo be?
 We support photo files of up to 30MB.
@@ -17,6 +17,12 @@ Visit your Gallery at your Trovebox site. From there, hover over the photo(s) yo
 Batch Edit lets you edit multiple photos at once. Currently you can add or remove tags or albums. You can also edit privacy settings or delete a set of photos.
 
 To use Batch Edit, visit your gallery and hover over the photos you want to edit. Click the pushpins of each photo. You can also select all, which will select all the visible photos. Then select Batch Edit and edit away.
+
+## How else can I select a photo for batch editing?
+You can click a photo while holding the _Alt_ key to select it. If you want to select a range of photos to edit, click the first photo while holding the _Shift_ key. Then click the last photo while holding _Shift_.
+
+## That's pretty neat. Are there any other shortcuts I should know about?
+You bet! Press _?_ on your Trovebox site to bring up a list.
 
 ## How do I delete a photo?
 Visit your gallery or an album. Hover over the photo you want to delete. You'll see the title of the photo along with a few icons. Click the trash can to delete the photo, then confirm you want to delete the photo.
