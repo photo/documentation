@@ -5,7 +5,7 @@ Pro Accounts
 With a pro account, you get:
 
 * Unlimited photo uploads (Compare to 100 photos/month for free users)
-* Import from Flickr as well as Facebook and Instagram. Picasa and Smugmug are coming soon.
+* Import your photos from Flickr, Facebook, and Instagram. Picasa and Smugmug are coming soon.
 * Switch where you store your photos as many times as you wish
 * Give multiple users access on your account without giving them your password
 * Top level domain support at yourdomain.com
