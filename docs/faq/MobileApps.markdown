@@ -26,7 +26,6 @@ Sure.
 Sync lets you view the photos on your phone and select which ones to upload. Think of it as batch upload for your phone.
 
 ## Can I automatically upload taken photos to Trovebox?
-Yes. This is an experimental feature for Android.
+Yes. In Android, select _Auto upload taken pictures_ in your settings.
 
-## How do I purchase a monthly Pro account?
-Visit the Account section of the navigation menu. Then select Upgrade to Pro account and approve the charge. You'll be charged monthly until you choose to unsubscribe. You can unsubscribe anytime.
+For iPhone and iPad, the photos are automatically uploaded when you open the app. To enable this select _Auto Sync_ in your settings.

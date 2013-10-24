@@ -11,13 +11,10 @@ You can do this in two ways: through the main Trovebox site or through your own 
 Go to the Sign In page and click "Forgot Password" next to the password entry field. Enter the email address you signed up with and click Submit. You'll receive a link where you can reset your password.
 
 ## Can I change the email I signed up with? 
-Not at this time. We're working on it.
+Not at this time. You can always create another account under a separate email.
 
 ## Can I change my username?
-Not at this time. You can always create a new account with your desired username. If you want or need your current account to be deleted, you can request a deletion by emailing [support@trovebox.com](mailto:support@trovebox.com).
-
-## I previously signed in with BrowserID or Facebook Connect, so I don't have a password. How do I sign in now?
-You can use the same email associated with either of those accounts. When you sign in, enter that email and click "Forgot password?". You'll get a link to set a password.
+Unfortunately no. You can always create a new account with your desired username. If you'd like your current account to be deleted so you can use the same email address again, email us at [support@trovebox.com](mailto:support@trovebox.com) and we can free your email address for you.
 
 ## Can I change my password?
 Yes. When you sign in, click "Forgot password?" and enter your email address. You'll get a link to reset your password as if you had forgotten it.

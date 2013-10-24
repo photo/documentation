@@ -2,7 +2,7 @@ Photo Management
 =======================
 
 ## How do I upload a photo?
-Go to your Trovebox site (it'll look like yourusername.trovebox.com) and click Upload. Click Add Photos and add the photos you'd like to upload. You can also add attributes that'll apply to all the photos uploaded in that batch, such as a tag, an album, a privacy setting, or a license. You can also upload a photo through our mobile apps for iPhone and Android.
+Go to your Trovebox site, which takes the form _yourusername.trovebox.com_, and click Upload. Click Add Photos and add the photos you'd like to upload. Here you can add attributes that will apply to all the photos uploaded in that batch: tag, an album, a privacy setting, or a license. You can also upload a photo through our mobile apps for iPhone and Android.
 
 ## How large can my photo be?
 We support photo files of up to 30MB.
@@ -17,6 +17,12 @@ Visit your Gallery at your Trovebox site. From there, hover over the photo(s) yo
 Batch Edit lets you edit multiple photos at once. Currently you can add or remove tags or albums. You can also edit privacy settings or delete a set of photos.
 
 To use Batch Edit, visit your gallery and hover over the photos you want to edit. Click the pushpins of each photo. You can also select all, which will select all the visible photos. Then select Batch Edit and edit away.
+
+## How else can I select a photo for batch editing?
+You can click a photo while holding the _Alt_ key to select it. If you want to select a range of photos to edit, click the first photo while holding the _Shift_ key. Then click the last photo while holding _Shift_.
+
+## That's pretty neat. Are there any other shortcuts I should know about?
+You bet! Press _?_ on your Trovebox site to bring up a full list.
 
 ## How do I delete a photo?
 Visit your gallery or an album. Hover over the photo you want to delete. You'll see the title of the photo along with a few icons. Click the trash can to delete the photo, then confirm you want to delete the photo.
@@ -34,9 +40,7 @@ You can download a photo directly if you or the user has enabled that option in 
 If you'd like to set one of your uploaded photos as your user photo, visit your gallery, find a photo you'd like to use, and select the person icon.
 
 ## What are albums? How do they work?
-An album is a collection of photos grouped around a theme of your choice. This lets you share many photos with friends or browse your own photos more easily. While albums are public on your albums page, the individual photos in the albums will retain the privacy setting you gave them.
-
-Since album photos retain their individual privacy settings, an album consisting entirely of private photos won't have a cover photo.
+An album is a collection of photos grouped around a theme of your choice. This lets you share many photos with friends or browse your own photos more easily. Albums inherit the privacy setting of your photos, so if all the photos in an album are private, the album itself is private and won't appear on your albums page to visitors.
 
 ## How do I create an album?
 While you're logged into your Trovebox site, visit Albums. Select Create Album, enter the name of your album under the Create Album section, and click Create.

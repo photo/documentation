@@ -4,7 +4,9 @@ OpenPhoto / Installation for OSX using Macports
 
 ## OS: Mac OSX
 
-This guide instructs you on how to install OpenPhoto on a Macintosh OSX computer.
+This guide instructs you on how to install OpenPhoto on a Macintosh OSX computer with Macports.
+
+If you don't have Macports installed you can [get it here](http://www.macports.org/install.php). The easiest option is to use `.pkg` installer.
 
 ----------------------------------------
 
@@ -24,7 +26,6 @@ If you're going to use AWS services then you'll need to be signed up for them.
 #### Server Packages and Modules
 Once you've confirmed that your cloud account is setup you can get started on your server. For that you'll need to have _Apache_, _PHP_ and _curl_ installed with a few modules.
 
-This guide assumes you have Macports installed. If not you can [get it here](http://www.macports.org/install.php). The easiest option is to use `.pkg` installer.
 
     sudo port install apache2
     sudo port install php5 +apache2
@@ -59,7 +60,7 @@ Download and install the source code. We recommend `~/Sites/yourdomain.com` but 
     tar -zxvf openphoto.tar.gz
     mv openphoto-frontend-* yourdomain.com
 
-Assuming that this is a development machine you can make the config writable by the user Apache runs as. Most likely `_www`.
+Assuming that this is a development machine you can make the config writable by the user Apache runs as, most likely `_www`.
 
     cd ~/Sites/yourdomain.com
     mkdir src/userdata
@@ -145,7 +146,7 @@ Once you complete the 3 steps your site will be up and running and you'll be red
 
 ### Performing setup again ###
 
-If for any reason you want to go through the setup again you will need to delete the generated config file and refresh your browser.
+If for any reason you want to go through the setup again, delete the generated config file and refresh your browser.
 
     rm ~/Sites/yourdomain.com/src/userdata/configs/settings.ini
 

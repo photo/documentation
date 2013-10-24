@@ -38,7 +38,7 @@ After that, pick up an Access Key ID and Secret Access Key from:
 You will also need a bucket name, but this can be anything. Openphoto will create it if necessary.
 
 ##### Local Filesystem
-Fairly self-explanitory. You must define the folder where you wish to store your photos (Be sure to make this writable by the user Apache runs as!) and the web-accessable hostname which openphoto will use to construct download URLs. This will either be the domain name assigned to the server, or the IP address. Include any necessary subdirectories. Do not include http://.
+This option stores your photos in your local filesystem. You must define the folder where you wish to store your photos and the web-accessable hostname which openphoto will use to construct download URLs. Be sure to make this folder writable by the user Apache runs as. This will either be the domain name assigned to the server, or the IP address. Include any necessary subdirectories. Do not include http://.
 
 E.g.:
 
@@ -46,11 +46,11 @@ E.g.:
 	127.0.0.1/photos
 
 ##### Dropbox
-Dropbox is a backup option which can be combined with either S3 or the locl filesystem. To enable it, you need a Key and Secret from:
+Dropbox is a backup option which can be combined with either S3 or the local filesystem. To enable it, you need a Key and Secret from:
 
 	https://www.dropbox.com/developers/apps
 
-Be sure to allow Full dropbox access. The folder name can be anything, and will be created if necessary.
+Be sure to allow Folder access. The folder name can be anything, and will be created if necessary.
 
 #### Necessary software
 
@@ -76,7 +76,7 @@ Non-essential but recommended:
 	* exiftran
 	* PHP oauth module
 	* Mysql (if you will be using it)
-	* PHP pdo mysql module (ditto)
+	* PHP pdo mysql module (if you will be using it)
 
 Be sure to modify php.ini to enable each PHP module. 
 
@@ -89,7 +89,7 @@ Enable the following Apache modules:
 	* expires
 	* headers
 	
-NOTE: If this is your first time installing Apache on your current distro, be sure to read your distro's documentation on how to set up Apache and how to set up vhosts in Apache. These vary wildly by distro and you are expected to know what to do!
+NOTE: If this is your first time installing Apache on your current distro, be sure to read your distro's documentation on how to set up Apache and how to set up vhosts in Apache. These vary wildly by distro.
 	
 ----------------------------------------
 
@@ -109,13 +109,15 @@ Download and install the source code. We recommend the default apache root (Ofte
     tar -zxvf openphoto.tar.gz
     mv openphoto-frontend-* yourdomain.com
 
-Once installed, create these three directories for configuration files:
+Once installed, create these three directories for configuration files. Then chown them all to the user Apache will run as. Change username to the appropriate user.
 
-	* yourdomain.com/src/userdata
-	* yourdomain.com/src/html/photos
-	* yourdomain.com/src/html/assets/cache
-	
-Then chown them all to the user Apache will run as.
+    mkdir /var/www/yourdomain.com/src/userdata
+    mkdir /var/www/yourdomain.com/src/html/photos
+    mkdir /var/www/yourdomain.com/src/html/assets/cache
+    chown username:username /var/www/yourdomain.com/src/userdata
+    chown username:username /var/www/yourdomain.com/src/html/photos
+    chown username:username /var/www/yourdomain.com/src/html/assets/cache
+
 
 
 ----------------------------------------
@@ -130,7 +132,7 @@ You'll need to copy the sample virtual host configuration file from the source t
 	
 After copying, edit the file and replace all instances of `/path/to/openphoto/html/directory` with `<install location>/yourdomain.com/src/html`.
 
-It may be necessary to enable openphoto's vhost and disable the default, here. This differs by distro, so check your distro's Apache docs.
+It may be necessary to enable openphoto's vhost and disable the default here. This differs by distro, so check your distro's Apache docs.
 
 By default, any access to ini files is denied with a "Not Found" 404 HTTP code.  To enable a 404, or Forbidden return code, change the following lines in the virtual host file.
 
@@ -156,7 +158,7 @@ Search for the following values and make sure they're correct.
     upload_max_filesize = 16M
     post_max_size = 16M
 
-Now, the site should be ready to use. Start/Restart Apache, and open the host in your browser. You should see a setup screen. You'll need your cloud account credentials to continue.
+Now the site should be ready to use. Start/Restart Apache, and open the host in your browser. You should see a setup screen. You'll need your cloud account credentials to continue if you're using them.
 
 Once you complete the 3 steps your site will be up and running and you'll be redirected there. The _setup_ screen won't show up anymore, but you can rerun it via the Manage page.
 
