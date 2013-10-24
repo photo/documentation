@@ -4,7 +4,7 @@ Pro Accounts
 ## I've heard that Pro accounts are no longer being offered. What does that mean for me?
 As of 25 October 2013, new Unlimited Pro accounts are no longer available for purchase. Current Pro accounts will continue to be honored and renewed at the same $29.99 per year rate.
 
-## What did I get with a Trovebox Pro account?
+## What did Trovebox Pro account holders get?
 With a pro account, you get:
 
 * Unlimited photo uploads (Compare to 100 photos/month for free users)
@@ -12,6 +12,8 @@ With a pro account, you get:
 * Switch where you store your photos as many times as you wish
 * Give multiple users access on your account without giving them your password
 * Top level domain support at yourdomain.com
+
+These features are now available with our current plans.
 
 ## Do you store users' credit card info?
 No, we don't. Your credit card info doesn't go through our servers at all, instead traveling securely from your server to our payment processor's.

@@ -2,7 +2,7 @@ Photo Sharing
 =======================
 
 ## How do I share a photo?
-You can share a photo by clicking the arrow button at the photo's page or in the gallery. You'll then see the options to share the photo.
+You can share a photo by clicking the arrow button at the photo's page or in the gallery. This will show the options to share the photo.
 
 ## Where can I share a photo to?
 Right now we support sharing via HTML embeds, email, Facebook, or Twitter. We want to add more sites, so let us know where you want to share your photos.

@@ -22,7 +22,7 @@ To use Batch Edit, visit your gallery and hover over the photos you want to edit
 You can click a photo while holding the _Alt_ key to select it. If you want to select a range of photos to edit, click the first photo while holding the _Shift_ key. Then click the last photo while holding _Shift_.
 
 ## That's pretty neat. Are there any other shortcuts I should know about?
-You bet! Press _?_ on your Trovebox site to bring up a list.
+You bet! Press _?_ on your Trovebox site to bring up a full list.
 
 ## How do I delete a photo?
 Visit your gallery or an album. Hover over the photo you want to delete. You'll see the title of the photo along with a few icons. Click the trash can to delete the photo, then confirm you want to delete the photo.
