@@ -10,6 +10,7 @@ Update Photo
 1. [Examples][examples]
   * [Command line][example-cli]
   * [PHP][example-php]
+  * [Python][example-python]
 1. [Response][response]
   * [Sample][sample]
 
@@ -60,6 +61,13 @@ _Authentication: required_
 
     $client = new OpenPhotoOAuth($host, $consumerKey, $consumerSecret, $oauthToken, $oauthTokenSecret);
     $response = $client->post("/photo/a/update.json", array('title' => 'My Photo Title', 'tags' => 'sunnyvale,downtown'));
+
+<a name="example-python"></a>
+#### Python (using [openphoto-python][openphoto-python])
+
+    client = openphoto.OpenPhoto()
+    photo = client.photos.list()[0] # Returns the first photo in the list
+    photo.update(title="My Photo Title", tags=["sunnyvale", "downtown"])
 
 ----------------------------------------
 
@@ -120,6 +128,8 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
 [examples]: #examples
 [example-cli]: #example-cli
 [example-php]: #example-php
+[example-python]: #example-python
 [response]: #response
 [sample]: #sample
 [openphoto-php]: https://github.com/photo/openphoto-php
+[openphoto-python]: https://github.com/photo/openphoto-python

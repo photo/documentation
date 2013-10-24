@@ -4,8 +4,8 @@ Pro Accounts
 ## I've heard that Pro accounts are no longer being offered. What does that mean for me?
 As of 25 October 2013, new Unlimited Pro accounts are no longer available for purchase. Current Pro accounts will continue to be honored and renewed at the same $29.99 per year rate.
 
-## What did Trovebox Pro account holders get?
-With a pro account, you get:
+## What did Trovebox Pro account holders receive?
+Pro account holders receive:
 
 * Unlimited photo uploads (Compare to 100 photos/month for free users)
 * Import your photos from Flickr, Facebook, and Instagram. Picasa and Smugmug are coming soon.
@@ -22,11 +22,10 @@ No, we don't. Your credit card info doesn't go through our servers at all, inste
 Nope. We'll alert you when your Pro account is going to renew.
 
 ## What happens if my Pro subscription ends?
-Don't panic! Nothing has been deleted. You resume using a free account, though you're now subject to the free account limitations. You can still access all your photos, free or Pro.
+Don't panic! Nothing has been deleted. You resume using a free account, though you're now subject to the free account limitations. You can still access all your photos. You can also choose to upgrade to one of your new plans.
 
 ## What can collaborators do with my account?
-Collaborators can add photos, edit photos, delete photos--just about anything you can do except delete your account. When you add them as a collaborator they can log in with that email via Mozilla Persona. Soon they'll be able to 
-log in via the regular Trovebox login.
+Collaborators can add photos, edit photos, delete photos--just about anything you can do except delete your account. When you add a collaborator, we send them an email prompting them to set a password.
 
 ## How do I add a top level domain?
 Adding a top level domain to your Trovebox site is currently all manual on our end, so there are two steps to take. First, email <a href="mailto:support@trovebox.com">support@trovebox.com</a> with the domain or subdomain you'd like to add to your Trovebox site.

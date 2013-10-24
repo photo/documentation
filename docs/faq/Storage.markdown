@@ -1,6 +1,9 @@
 Photo Storage
 =======================
 
+## Wait, I can choose not to store my photos with you?
+Absolutely. This is so important to us that it's the very first thing we built into the site. If you don't want to bring your own storage account, that's okay too. You can connect a storage account anytime if you change your mind.
+
 ## Where can I store my photos?
 Right now Trovebox supports Amazon S3, Box.com, Dropbox, CX.com, DreamHost DreamObjects, and the Internet Archive. You can also use our storage if you don't want to use your own.
 

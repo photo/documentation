@@ -27,6 +27,9 @@ Our importer fetches your albums first, then places your import request in a lin
 ## What happens if I run an importer again?
 The importer ignores any duplicate photos and will fetch only any new photos you may have uploaded.
 
+## What happens if I run the importer again after a successful import?
+The importer skips the previously imported photos and imports only the photos that aren't already in your Trovebox site.
+
 ## Can I import my photos from an existing S3 bucket?
 Yes. Visit [our S3 import page](https://trovebox.com/for/s3/import) to get started. This is a Pro account feature.
 

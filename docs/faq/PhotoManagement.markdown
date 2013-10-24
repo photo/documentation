@@ -2,7 +2,7 @@ Photo Management
 =======================
 
 ## How do I upload a photo?
-Go to your Trovebox site, which is something like _yourusername.trovebox.com_, and click Upload. Click Add Photos and add the photos you'd like to upload. Here you can add attributes that will apply to all the photos uploaded in that batch: tag, an album, a privacy setting, or a license. You can also upload a photo through our mobile apps for iPhone and Android.
+Go to your Trovebox site, which takes the form _yourusername.trovebox.com_, and click Upload. Click Add Photos and add the photos you'd like to upload. Here you can add attributes that will apply to all the photos uploaded in that batch: tag, an album, a privacy setting, or a license. You can also upload a photo through our mobile apps for iPhone and Android.
 
 ## How large can my photo be?
 We support photo files of up to 30MB.
