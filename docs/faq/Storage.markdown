@@ -29,8 +29,8 @@ Not yet. It's on our feature wishlist, though. For now you can run the importer 
 Not on your Trovebox site! However, the Internet Archive offers free storage for the sake of the public. Right now you can mark a photo as private on your site and it'll show up as public in the archive for archiving purposes. 
 We're working on this.
 
-## If I'm a free user, do I lose access to my photos after using a certain amount of space or hitting my monthly upload limit?
+## Do I lose access to my photos after using a certain amount of space?
 Nope. Your photos are yours, and you still have access to everything you've previously uploaded.
 
 ## Can I access my original photos?
-Yes. Free or pro, you'll always have access to your original photos in the resolution you uploaded them in.
+Yes. You'll always have access to your original photos in the resolution you uploaded them in.
