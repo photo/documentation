@@ -1,7 +1,10 @@
 Pro Accounts
 ===========================
 
-## What do I get with a Trovebox Pro account?
+## I've heard that Pro accounts are no longer being offered. What does that mean for me?
+As of 25 October 2013, new Unlimited Pro accounts are no longer available for purchase. Current Pro accounts will continue to be honored and renewed at the same $29.99 per year rate.
+
+## What did I get with a Trovebox Pro account?
 With a pro account, you get:
 
 * Unlimited photo uploads (Compare to 100 photos/month for free users)
@@ -9,26 +12,6 @@ With a pro account, you get:
 * Switch where you store your photos as many times as you wish
 * Give multiple users access on your account without giving them your password
 * Top level domain support at yourdomain.com
-
-<a href="https://trovebox.com/plans">Check out our plans chart</a> for the full breakdown.
-
-## How much does a Pro account cost?
-A Pro account costs $29.99 a year.
-
-## How do I upgrade from a free account to a Pro account?
-Visit <a href="https://trovebox.com/upgrade">our upgrade page</a>, enter your credit card info, and enjoy your Pro account!
-
-## Can I select a Pro plan when I sign up for Trovebox?
-Yes. When you sign up, select the Pro plan, and you'll be prompted for your credit card info.
-
-## Can I pay via PayPal? Google Wallet? Some other way?
-Not yet. If you have any trouble getting your Pro account with a credit card contact us at [support@trovebox.com](mailto:support@trovebox.com) and we can figure out a way.
-
-## Is there a monthly Pro plan?
-Not directly through the website, but you can purchase a monthly plan for $2.99/month straight through the iPhone app. Monthly plan support for the Android app is planned.
-
-## Is unlimited really unlimited? What's the catch?
-We don't limit uploads for Pro users, but you may face limits from your storage provider. If we're your storage provider then everything is unlimited. 
 
 ## Do you store users' credit card info?
 No, we don't. Your credit card info doesn't go through our servers at all, instead traveling securely from your server to our payment processor's.
@@ -61,6 +44,3 @@ Twitter cards are added per domain over at Twitter. You can <a href="https://dev
 Yes. If you're already using a subdomain on your Trovebox site, you should use a different one for your images so one subdomain doesn't map to two places.
 
 The easiest way to use a domain for your thumbnails is to store your photos in an Amazon S3 bucket named after your subdomain--that is, your.subdomain.com. Then add a CNAME record pointing your.subdomain.com to your.subdomain.com.s3.amazonaws.com. Once you've done this email us at <a href="mailto:support@trovebox.com">support@trovebox.com</a> and we can update the record on our side.
-
-## My needs go far beyond what a Pro account provides. Can I get even more?
-We're working on a <a href="https://trovebox.com/organizations">plan for organizations</a>. Email us at <a href="mailto:support@trovebox.com">support@trovebox.com</a> if you're interested.
