@@ -1,10 +1,10 @@
 # Groups and Administrators FAQ
 
-### What are Groups?
+## What are Groups?
 
 Groups are a Trovebox feature that let multiple people upload photos to one Trovebox site. 
 
-### Who can benefit from groups?
+## Who can benefit from groups?
 
 Groups are designed for anyone who wants or needs multiple users to manage their photo collection. Some examples include:
 
@@ -12,11 +12,9 @@ Groups are designed for anyone who wants or needs multiple users to manage their
 
 * ***Businesses***: Businesses as small as five and as large as five thousand and beyond can benefit from Trovebox for business. If you have unique needs, chances are we can accomodate them easily. Contact us at <a href="mailto:support@trovebox.com">support@trovebox.com</a> if you have any questions.
 
-* ***Families***: Families often have multiple smartphones per household, and that's not including any point and shoot or DSLR cameras a home may hold. All the adults in the household can pool their photo collection into one site and no one has to worry about where that one photo of Spot went.
+## How do I get started with groups?
 
-### How do I get started with groups?
-
-The Groups feature is available in your settings.
+The Groups feature is available in your settings. All of Trovebox's current plans have access to Groups.
 
 ## What are Administrators?
 
@@ -51,14 +49,6 @@ While logged into your Trovebox site, select Upload and upload the photo(s) of y
 ## What about Collaborators?
 
 Collaborators have been renamed Administrators. When you add an administrator to a group, they'll receive an email with instructions on setting a password, just like a group member does.
-
-## How much does this cost?
-
-We'll be releasing plans for Groups soon, so stay tuned.
-
-## How do I get started?
-
-Current Pro members can get started with groups by enabling the Groups beta and visiting the Collaborators area of their settings.
 
 ## What if I have more questions?
 
