@@ -14,17 +14,14 @@ When viewing a photo, click the Share arrow and select the 'Embed in Blog' butto
 Yes. Click the Share button that appears when hovering over an album's summary, then share in the same way you'd share a photo.
 
 ## How do I share a private photo or album?
-You can share a private photo in the same way that you'd share a public photo or album. When you share a private item, a sharing token gets added to the photo URL. The recipient can then use the full URL to view the photo without 
-logging in.
+You can share a private photo in the same way that you'd share a public photo or album. When you share a private item, a sharing token is added to the photo URL. The recipient can then use the full URL to view the photo without 
+logging in or remembering a password.
 
 ## Wait, sharing tokens? How do those work?
-When you share a photo, a sharing token in the photo's URL enables other users to view your photo. These sharing tokens expire after a time period that you'll soon be able to set yourself. 
+A sharing token is a private URL that lets another person view a private photo. When you share a photo, a sharing token in the photo's URL enables other users to view your photo. You can revoke a sharing token anytime.
 
-## What happens when I share a private album?
-The recipient will be able to see the album and the contents of the album, even if those photos are private.
-
-## Can I set a custom expiration date for a sharing token?
-Soon you'll be able to.
+## What happens when I share an album with private photos?
+The recipient will be able to see the album and the contents of the album, including any private photos.
 
 ## I changed my mind about sharing a photo.  How can I revoke its sharing token?
 In the Sharing Tokens section of your settings, find the photo ID of the photo whose token you want to revoke. Click Revoke, and your sharing token will no longer work.
