@@ -26,7 +26,7 @@ When someone adds you as a group member or administrator, you'll receive an emai
 
 ## How do I create a group?
 
-In your settings area, click "Collaborators" next to "General Settings". The "Manage Groups" area in this section lets you create a group, name it, add a description, and add members and albums.
+In your settings area, click "Team Management" next to "General Settings". The "Manage Groups" area in this section lets you create a group, name it, add a description, and add members and albums.
 
 ## How do I add a member to a group?
 

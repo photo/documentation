@@ -7,7 +7,7 @@ White-labeling is a feature that lets you design your Trovebox site with your or
 
 ## How does white-labeling at Trovebox work?
 
-Email us at support@trovebox.com with what you’d like modified on your Trovebox site. Currently we can modify Soon we’ll offer a way for you to do this yourself.
+Email us at support@trovebox.com with what you’d like modified on your Trovebox site. Soon we’ll offer a way for you to do this yourself.
 
 ## What is the Trovebox Consultancy Service?
 
@@ -15,11 +15,11 @@ The consultancy service connects you to a Trovebox developer who can help you in
 
 ## What’s the Getting Started web conference?
 
-When you sign up for the Platinum plan, one of our Trovebox team members will This feature is available for Platinum members.
+When you sign up for the Platinum plan, one of our Trovebox team members will work with your team to get the most from your Trovebox account. This feature is available for Platinum members.
 
 ## How do I upload video?
 
-Video is coming very soon, but once it's here you can upload video the same way you upload photos.
+Video is coming very soon, once it's here you can upload video the same way you upload photos.
 
 ## How do I add a top level domain?
 Adding a top level domain to your Trovebox site is currently all manual on our end, so there are two steps to take. First, email <a href="mailto:support@trovebox.com">support@trovebox.com</a> with the domain or subdomain you'd like to add to your Trovebox site.
