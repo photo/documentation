@@ -1,0 +1,41 @@
+# OpenPhoto Javascript Library
+
+### Examples
+
+First, include the `OpenPhoto.js` script and add a `data-site` attribute.
+
+    <script src="OpenPhoto.js" data-site="http://your-site.com"></script>
+
+Second, write a function that does something with the API response.
+
+    <script>
+      /*
+       * The render function takes a response and loops over the result (in this case, photos)
+       *  For each photo we create an IMG element and append it to the BODY
+       *  This is can be made much easier using a JavaScript library.
+       */
+      function render(response) {
+        var photos = response.result,
+            photo,
+            body = document.getElementsByTagName('body')[0],
+            img;
+        for(i in photos) {
+          if(photos.hasOwnProperty(i)) {
+            photo = photos[i];
+            img = document.createElement('img');
+            img.src = photo["path100x100xCR"];
+            body.appendChild(img);
+          }
+        }
+      }
+    </script>
+
+Third, call any [API endpoint](http://theopenphotoproject.org/documentation) and pass the callback function we defined above.
+
+    <script>
+      OpenPhoto.Api.load('/photos/tags-favorites/list.json?pageSize=45&returnSizes=100x100xCR', render);
+    </script>
+
+This is a pure JavaScript example which doesn't rely on any third party libraries.
+
+Enjoy!
