@@ -2,19 +2,17 @@ The Trovebox Mobile Apps
 =======================
 
 ## What phones are supported?
-Trovebox's mobile apps are available for iPhone and Android. You can download them <a href="https://itunes.apple.com/us/app/app-for-openphoto/id511845345?mt=8">in the App Store (iOS)</a> or <a 
+Trovebox's mobile apps are available for iPhone, iPad, and Android. You can download them <a href="https://itunes.apple.com/us/app/app-for-openphoto/id511845345?mt=8">in the App Store (iOS)</a> or <a 
 href="https://play.google.com/store/apps/details?id=com.trovebox.android.app">Play Store (Android)</a>.
 
 ## What can I do with the Trovebox mobile apps?
 Lots of things. To name a few: 
 
-* Create an Trovebox account
 * Upload photos to your Trovebox site
 * View photos in your gallery, by album, or by tag
 * Add titles, descriptions, privacy settings, and tags
 * Share photos via email, Twitter, and Facebook
 * Add filters to your photos
-* Purchase a monthly Pro account plan
 
 ## Does the iPhone app work on iPad too?
 Yes.
