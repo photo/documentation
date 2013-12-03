@@ -39,15 +39,15 @@ Sure. Email us at <a href="mailto:support@trovebox.com">support@trovebox.com</a>
 ## My business’s photo needs go far beyond what your plans currently provide. Can we make a customized plan?
 Absolutely. Email us at <a href="mailto:support@trovebox.com">support@trovebox.com</a> and we’ll talk.
 
-## I've heard that Pro accounts are no longer being offered. What does that mean for me?
-As of 25 October 2013, new Unlimited Pro accounts are no longer available for purchase. Current Pro accounts will continue to be honored and renewed at the same $29.99 per year rate.
+## I've heard that free and Pro accounts are no longer being offered. What does that mean for me?
+As of 25 October 2013, new free and Unlimited Pro accounts are no longer available. Existing free and Pro accounts will continue to be honored. Pro accounts will continue to be renewed at the same $29.99 per year rate.
 
 ## What did Trovebox Pro account holders receive?
 Pro account holders received:
 
 * Unlimited photo uploads (Compare to 100 photos/month for free users)
 * Import your photos from Flickr, Facebook, and Instagram.
-* Switch where you store your photos as many times as you wish
+* <a href="https://trovebox.com/migrate">Switch where you store your photos</a> as many times as you wish
 * Give multiple users access on your account without giving them your password
 * Top level domain support at yourdomain.com
 
