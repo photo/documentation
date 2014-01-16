@@ -1,13 +1,7 @@
 # Trovebox Plans
 
-## What plans are available?
-We offer a variety of plans for organizations of different sizes. You can view them on <a href="https://trovebox.com/plans">our Plans page</a>.
-
 ## Is a trial available?
 Yes, each plan comes with a 14-day free trial.
-
-## Do I have to select a plan when I sign up?
-Yes. When you sign up we’ll ask you to select a plan to trial.
 
 ## Do I need to enter a credit card to use the free trial?
 No. After your trial ends we’ll ask you for your credit card info so you can continue using Trovebox.
@@ -15,23 +9,23 @@ No. After your trial ends we’ll ask you for your credit card info so you can c
 ## Do you store users' credit card info?
 No, we don't. Your credit card info doesn't go through our servers at all, instead traveling securely from your server to our payment processor's.
 
-## Do I have to renew manually every year?
+## Do I have to renew manually?
 Nope. We'll alert you when your subscription is going to renew.
 
 ## What happens if my plan ends?
 Don't panic! Nothing has been deleted. You can still access all your photos. You can also choose to resume using your current plan again.
 
-## How do I cancel my free trial?
+## How do I cancel after my free trial?
 Email us at <a href="mailto:support@trovebox.com">support@trovebox.com</a> and we’ll make sure your trial gets cancelled.
 
 ## What happens if I don’t continue to use Trovebox after the free trial?
 Your Trovebox site will become read-only, so you won’t be able to upload or edit content.
 
 ## What happens if I run out of storage?
-You won’t be able to upload any other content until you upgrade your plan or delete content.
+You'll need to upgrade your plan or delete content before uploading more photos.
 
 ## How do I change my plan?
-Email us at <a href="mailto:support@trovebox.com">support@trovebox.com</a> and let us know what plan you’d like to change to, and we’ll 
+Visit <a href="https://trovebox.com/me">your subscription page and click <em>Change</em> next to your plan info. You can change your plan to one of our other available plans.
 
 ## I need help selecting a plan. Can you help?
 Sure. Email us at <a href="mailto:support@trovebox.com">support@trovebox.com</a> and we’ll talk with you through your needs.
