@@ -29,4 +29,4 @@ When someone clicks a link we’ll direct them to the photo upload page, and the
 It’s easy, there’s no software to download, and your recipients don’t need a Trovebox account to get started.
 
 ## Is there a mobile app available to make uploading easier?
-Yes. The Trovebox Collect app is available for iOS and Android. Your recipients can still upload photos whether or not they have the app installed.
+Yes. The Trovebox Collect app is available for Android. Your recipients can still upload photos whether or not they have the app installed.
