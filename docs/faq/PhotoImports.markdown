@@ -36,5 +36,8 @@ Yes. Visit [our S3 import page](https://trovebox.com/for/s3/import) to get start
 ## Can I keep uploading to another photo site and still view that photo in Trovebox? What about uploading to Trovebox and viewing that photo elsewhere without uploading it in two places?
 We don't offer a way to do this directly through Trovebox, but you can use sites like <a href="http://ifttt.com">ifttt</a> or <a href="http://pi.pe">Pixelpipe</a> that will automatically upload a picture to Trovebox when you upload a picture somewhere else (or vice versa). We've created two ifttt recipes for [Flickr to Trovebox](https://ifttt.com/recipes/16965) and [Instagram to Trovebox](https://ifttt.com/recipes/16959).
 
+## Can I import all the photos with a given hashtag?
+Not yet, but this is a very popular request. Stay tuned.
+
 ## You don't have an importer for my site or photo manager. Can I request it?
 Yes. The more requests we get for an importer the faster it'll get built. Email [support@trovebox.com](support@trovebox.com) to request an importer for your photo site.
