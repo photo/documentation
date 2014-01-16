@@ -14,7 +14,7 @@ Groups are designed for anyone who wants or needs multiple users to manage their
 
 ## How do I get started with groups?
 
-The Groups feature is available in your settings. All of Trovebox's current plans have access to Groups.
+The Groups feature is available in the <em>Team</em> area of your Trovebox site. All of Trovebox's current plans have access to Groups.
 
 ## What are Administrators?
 
@@ -26,7 +26,7 @@ When someone adds you as a group member or administrator, you'll receive an emai
 
 ## How do I create a group?
 
-In your settings area, click "Team Management" next to "General Settings". The "Manage Groups" area in this section lets you create a group, name it, add a description, and add members and albums.
+Click <em>Team</em> at the top of your Trovebox site. The "Manage Groups" area in this section lets you create a group, name it, add a description, and add members and albums.
 
 ## How do I add a member to a group?
 
