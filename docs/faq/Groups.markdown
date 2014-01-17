@@ -1,9 +1,5 @@
 # Groups and Administrators FAQ
 
-## What are Groups?
-
-Groups are a Trovebox feature that let multiple people upload photos to one Trovebox site. 
-
 ## Who can benefit from groups?
 
 Groups are designed for anyone who wants or needs multiple users to manage their photo collection. Some examples include:
@@ -16,17 +12,15 @@ Groups are designed for anyone who wants or needs multiple users to manage their
 
 The Groups feature is available in the <em>Team</em> area of your Trovebox site. All of Trovebox's current plans have access to Groups.
 
-## What are Administrators?
+## What's the difference between a group member and an administrator?
 
-Administrators are group members aside from the site owner who have full access to an account. They can do almost anything you can do, so choose your administrators wisely.
+A **group member** is someone you've allowed to access your Trovebox site. They can upload photos to the albums you specify.
 
-## Someone added me as a group member. How do I log in?
-
-When someone adds you as a group member or administrator, you'll receive an email from us prompting you to set a password. Once you set a password you'll be able to log in through the website.
+**Administrators** are group members aside from the site owner who have full access to an account. They can do almost anything you can do, so choose your administrators wisely.
 
 ## How do I create a group?
 
-Click <em>Team</em> at the top of your Trovebox site. The "Manage Groups" area in this section lets you create a group, name it, add a description, and add members and albums.
+Click <em>Team</em> at the top of your Trovebox site. The *Manage Groups* area in this section lets you create a group, name it, add a description, and add members and albums.
 
 ## How do I add a member to a group?
 
@@ -41,6 +35,10 @@ Accidentally clicked the Delete Group button? It happens to all of us. Click it 
 ## How do I give group members access to albums?
 
 In your settings, visit the group you’d like to add the member to. Enter the member’s email address. They’ll receive an email from us explaining how to set a password so they can log in.
+
+## Someone added me as a group member. How do I log in?
+
+When someone adds you as a group member or administrator, you'll receive an email from us prompting you to set a password. Once you set a password you'll be able to log in through the website.
 
 ## I'm a group member. How do I upload to an album?
 
