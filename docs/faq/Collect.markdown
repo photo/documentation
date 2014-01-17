@@ -1,11 +1,11 @@
 Trovebox Collect
 ================
 
-## Can I let anonymous users upload to my account?
-Yes. The Invite Uploaders link in each album lets you invite others to upload photos to that album. Click “Invite Uploaders” and send the link to anyone you like.
-
 ## What is Trovebox Collect?
-Trovebox Collect is a feature that makes collecting photos from others easier by letting them upload straight to one of your albums. It's as easy as sending an upload link to someone.
+Trovebox Collect makes collecting photos from others easier by letting them upload straight to one of your albums. It's as easy as sending an upload link to someone.
+
+## Can I invite anonymous users to upload photos?
+Yes. The *Collect URL* link in each album lets you invite others to upload photos to that album. Click *Collect URL* and send the resulting link to anyone you like.
 
 ## How is Collect different from email attachments or Dropbox?
 With email attachments, the sender has to find and attach each photo individually. When you receive the photos, you have to open and save each photo attachment one by one.
@@ -15,7 +15,7 @@ Another alternative is using a shared Dropbox folder. All the space in that fold
 Trovebox Collect lets you collect photos by simply sending a link.
 
 ## How does Trovebox Collect work for me, the site owner?
-Visit the album you'd like someone to upload to and select "Invite Uploaders". Then share the link we generate with anyone you like. The recipients can then upload photos through the Trovebox Collect mobile app, their mobile browsers, or their computer. We notify you when someone has uploaded a photo.
+Visit the album you'd like someone to upload to and select *Collect URL*. Then share the link we generate with anyone you like. The recipients can then upload photos through the Trovebox Collect mobile app, their mobile browsers, or their computer. We notify you when someone has uploaded a photo.
 
 ## Can someone with an upload link upload photos from their computer?
 Yes. When they visit the upload link from their computer they arrive at an upload page.
