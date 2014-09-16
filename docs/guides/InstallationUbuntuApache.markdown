@@ -16,10 +16,7 @@ This guide instructs you on how to install OpenPhoto on an Ubuntu Server.
 You'll need to provide credentials for a MySql database. If the database doesn't already exist it will be created. If the user doesn't have `CREATE DATABASE` permissions then make sure it's already created.
 
 ##### AWS
-If you're going to use AWS services then You'll need to be signed up for them.
-
-* http://aws.amazon.com/simpledb/
-* http://aws.amazon.com/s3/
+If you're going to use AWS S3 then You'll need to be [signed up it](http://aws.amazon.com/s3/)
 
 #### Server Packages and Modules
 Once you've confirmed that your cloud account is setup you can get started on your server. For that you'll need to have _Apache_, _PHP_ and _curl_ installed with a few modules.
@@ -28,6 +25,11 @@ Once you've confirmed that your cloud account is setup you can get started on yo
     apt-get upgrade
     apt-get install apache2 php5 libapache2-mod-php5 php5-mysql php5-curl php5-gd php5-mcrypt php-apc build-essential libpcre3-dev php-pear
     a2enmod rewrite
+    
+    #### Bug in Ubuntu 14.04 where the mcrypt module isn't loaded for PHP
+    #### Requires you to run the following if you see this in your error logs
+    ####   Call to undefined function mcrypt_create_iv()
+    ln -s /etc/php5/mods-available/mcrypt.ini /etc/php5/apache2/conf.d/20-mcrypt.ini
 
 
 There are also a few optional but recommended packages and modules.
