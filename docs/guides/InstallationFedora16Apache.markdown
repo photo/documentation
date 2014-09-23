@@ -16,10 +16,7 @@ This guide instructs you on how to install OpenPhoto on a Fedora server.
 You'll need to provide credentials for a MySql database. If the database doesn't already exist it will be created. If the user doesn't have `CREATE DATABASE` permissions then make sure to create the database.
 
 ##### AWS
-If you're going to use AWS services then you'll need to be signed up for them.
-
-* http://aws.amazon.com/simpledb/
-* http://aws.amazon.com/s3/
+If you're going to use [AWS S3](http://aws.amazon.com/s3/) then you'll need to be signed up for it.
 
 #### Server Packages and Modules
 Once you've confirmed that your cloud account is set up, you can get started on your server. For that you'll need to have _Apache_, _PHP_ and _curl_ installed with a few modules.
@@ -27,6 +24,7 @@ Once you've confirmed that your cloud account is set up, you can get started on 
     yum groupinstall 'Development Tools'
     yum groupinstall 'Development Libraries'
     yum install httpd httpd-devel php php-devel php-common php-curl php-gd php-mcrypt pcre pcre-devel ImageMagick php-magickwand php-pecl-imagick ImageMagick-devel php-pear php-mysql
+    pecl channel-update pecl.php.net
     pecl install apc
     echo "extension=apc.so" > /etc/php.d/apc.ini
     pecl install oauth
