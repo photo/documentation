@@ -50,7 +50,7 @@ You may have to manually add the PHP mcrypt library if `php-mcrypt` isn't instal
     php -i | grep 'mcrypt support => enabled'
     
     # if you don't see mcrypt you can do the following
-    # 
+    # taken from http://stackoverflow.com/a/18553415
     wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
     sudo rpm -Uvh epel-release-6-8.rpm
     yum install php-mcrypt
