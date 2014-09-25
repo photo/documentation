@@ -23,7 +23,7 @@ Once you've confirmed that your cloud account is set up, you can get started on 
 
     yum groupinstall 'Development Tools'
     yum groupinstall 'Development Libraries'
-    yum install httpd httpd-devel php php-devel php-common php-curl php-gd php-mcrypt pcre pcre-devel ImageMagick php-magickwand php-pecl-imagick ImageMagick-devel php-pear php-mysql
+    yum install httpd httpd-devel php php-devel php-common php-curl php-gd php-mcrypt pcre pcre-devel ImageMagick php-magickwand php-pecl-imagick ImageMagick-devel php-pear php-mysql fbida
     pecl channel-update pecl.php.net
     pecl install imagick
     echo "extension=imagick.so" > /etc/php.d/imagick.so.ini
