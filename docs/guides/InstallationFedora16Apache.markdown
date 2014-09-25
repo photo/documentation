@@ -40,9 +40,23 @@ If you're going to be using MySql you need to install it.
 
     yum install mysql-server
     # start mysql
-    /etc/init.d/httpd start
+    /etc/init.d/mysqld start
     # make sure it starts on boot
     chkconfig --add mysqld
+    
+You may have to manually add the PHP mcrypt library if `php-mcrypt` isn't installed.
+    
+    # run this to see if mcrypt is enabled
+    php -i | grep 'mcrypt support => enabled'
+    
+    # if you don't see mcrypt you can do the following
+    # 
+    wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+    sudo rpm -Uvh epel-release-6-8.rpm
+    yum install php-mcrypt
+    
+    # restart apache
+    /etc/init.d/httpd restart
 
 ----------------------------------------
 
