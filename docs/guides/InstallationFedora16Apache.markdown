@@ -26,7 +26,7 @@ Once you've confirmed that your cloud account is set up, you can get started on 
     yum install httpd httpd-devel php php-devel php-common php-curl php-gd php-mcrypt pcre pcre-devel ImageMagick php-magickwand php-pecl-imagick ImageMagick-devel php-pear php-mysql
     pecl channel-update pecl.php.net
     pecl install imagick
-    echo "extension=imagick.so.so" > /etc/php.d/imagick.so.ini
+    echo "extension=imagick.so" > /etc/php.d/imagick.so.ini
     pecl install apc
     echo "extension=apc.so" > /etc/php.d/apc.ini
     pecl install oauth
