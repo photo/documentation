@@ -31,6 +31,18 @@ Once you've confirmed that your cloud account is set up, you can get started on 
     echo "extension=apc.so" > /etc/php.d/apc.ini
     pecl install oauth
     echo "extension=oauth.so" > /etc/php.d/oauth.ini
+    # start apache
+    /etc/init.d/httpd start
+    # make sure it starts on boot
+    chkconfig --add httpd
+    
+If you're going to be using MySql you need to install it.
+
+    yum install mysql-server
+    # start mysql
+    /etc/init.d/httpd start
+    # make sure it starts on boot
+    chkconfig --add mysqld
 
 ----------------------------------------
 
