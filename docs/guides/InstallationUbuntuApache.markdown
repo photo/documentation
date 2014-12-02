@@ -73,20 +73,14 @@ Assuming that this is a development machine you only need to make the config wri
 
 #### Apache
 
-You'll need to copy the sample virtual host configuration file from the source to `/etc/apache2/sites-available`.
+Copy the sample virtual host configuration file. Replace yourdomain with your own domain name:
 
-    cp /var/www/yourdomain.com/src/configs/openphoto-vhost.conf /etc/apache2/sites-available/openphoto
+    cp /var/www/yourdomain.com/src/configs/openphoto-vhost.conf /etc/apache2/sites-available/yourdomain.conf
 
-You'll need to replace instances of `/path/to/openphoto/html/directory` with `/var/www/yourdomain.com/src/html` or wherever you placed the code. Depending on which modules you installed you may have to comment out some of the `Expires*` directives.
+Edit /etc/apache2/sites-available/yourdomain.conf and replace instances of `/path/to/openphoto/html/directory` with `/var/www/yourdomain.com/src/html` or wherever you placed the code. Depending on which modules you installed you may have to comment out some of the `Expires*` directives.
 
-    vi /etc/apache2/sites-available/openphoto
-
-Now enable openphoto and disable Apache's default virtual host.
-
-    a2dissite default
-    a2ensite openphoto
-
-
+    vi /etc/apache2/sites-available/yourdomain.conf
+    
 By default, any access to ini files is denied with a "Not Found" 404 HTTP code.  To enable a 403, or Forbidden return code, change the following lines in the virtual host file.
 
 Uncomment:
@@ -99,9 +93,24 @@ Comment:
     # 404 Not Found for ini files
     AliasMatch \.ini$	/404
 
+Enable openphoto:
+
+    a2ensite yourdomain.conf
+    
+You may also want to disable Apache's default virtual host (especially if you are not running your website on your local machine):
+
+    a2dissite default.conf
+    
+If you want to run your website on your local machine, don't forget to modify your hosts file:
+
+    vi /etc/hosts
+
+Add:
+    127.0.1.1 yourdomain.com
+    
 ### PHP
 
-You should also verify that your `php.ini` file has a few important values set correctly.
+Edit your `php.ini` file:
 
     vi /etc/php5/apache2/php.ini
 
@@ -115,13 +124,15 @@ Search for, and if needed add the following line to load the Oauth Extention.
 
     extension=oauth.so
 
-Now you're ready to restart apache and visit the site in your browser.
+Restart apache:
 
     /etc/init.d/apache2 restart
 
 ### Launching your OpenPhoto site
 
-Now you're ready to launch your OpenPhoto site. Point your browser to your host and you'll be taken to a setup screen. You'll need your cloud account credentials to continue.
+Now you're ready to launch your OpenPhoto site. Point your browser to yourdomain.com and you'll be taken to a setup screen.
+
+You'll need your cloud account credentials to continue.
 
 Once you complete the 3 steps your site will be up and running and you'll be redirected there. The _setup_ screen won't show up anymore. If for any reason you want to go through the setup again you will need to delete the generated config file and refresh your browser.
 
