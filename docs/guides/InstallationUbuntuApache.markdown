@@ -132,7 +132,7 @@ Restart apache:
 
 Now you're ready to launch your OpenPhoto site. Point your browser to yourdomain.com and you'll be taken to a setup screen.
 
-You'll need your cloud account credentials to continue.
+If you're using a cloud service you'll need those account credentials to continue.
 
 Once you complete the 3 steps your site will be up and running and you'll be redirected there. The _setup_ screen won't show up anymore. If for any reason you want to go through the setup again you will need to delete the generated config file and refresh your browser.
 
