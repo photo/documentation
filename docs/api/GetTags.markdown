@@ -81,23 +81,26 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
         {
           "id": "mountain",
           "count": 1
+          "actor": "jaisen@jmathai.com"
+          "owner": "jaisen@jmathai.com"
         },
         {
           "id": "jaisen",
           "count": 10,
-          "email": "jaisen@jmathai.com"
+          "actor": "jaisen@jmathai.com"
+          "owner": "jaisen@jmathai.com"
         },
         {
           "id": "New York",
           "count": 9,
-          "latitude": 12.3456,
-          "longitude": 78.9012
+          "actor": "jaisen@jmathai.com"
+          "owner": "jaisen@jmathai.com"
         },
         {
           "id": "Sunnyvale",
           "count":23
-          "latitude": 13.579,
-          "longitude": 24.68
+          "actor": "jaisen@jmathai.com"
+          "owner": "jaisen@jmathai.com"
         },
         ....
       ]

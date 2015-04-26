@@ -18,7 +18,8 @@ Create Tag
 <a name="purpose"></a>
 ### Purpose of the Create Tag API
 
-Use this API to create a tag.
+This API is used internally to create a tag.
+External applications should use the [Photo Update API](http://theopenphotoproject.org/documentation/api/PostPhotoUpdate) to create tags.
 
 ----------------------------------------
 
@@ -34,9 +35,6 @@ _Authentication: required_
 
 1.  tag (required), The name of the tag to create
 1.  count (optional), Number of photos which contain this tag
-1.  email (optional), An email address that corresponds to this tag
-1.  latitude (optional), _i.e. 34.76_ - A decimal representation of latitude.
-1.  longitude (optional), _i.e. -87.45_ - A decimal representation of longitude.
 
 ----------------------------------------
 
@@ -63,7 +61,7 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
 
 * _message_, A string describing the result. Don't use this for anything but reading.
 * _code_, _201_ on success
-* _result_, A [Tag][Tag] object or FALSE on error
+* _result_, TRUE if the tag was successfully created
 
 <a name="sample"></a>
 #### Sample
@@ -71,11 +69,7 @@ The response is in a standard [response envelope](http://theopenphotoproject.org
     {
       "message":"",
       "code":201,
-      "result":     	
-      {
-        "id": "mountain",
-        "count": 0
-      }
+      "result":TRUE
     }
 
 
